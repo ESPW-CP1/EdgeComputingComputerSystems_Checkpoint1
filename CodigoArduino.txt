@@ -1,0 +1,53 @@
+const int ldrPin = A0;
+int ledPin1 = 10;
+int ledPin2 = 9;
+int ledPin3 = 8;
+const int buzzerPin = 11;
+int ldrValue;
+int buzzerDuration = 1000; // define a duração do som da buzina (em milissegundos)
+int buzzerPause = 1000; // define o intervalo de pausa da buzina (em milissegundos)
+
+
+
+void setup() {
+  pinMode(ldrPin, INPUT);
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin2, OUTPUT);
+  pinMode(ledPin3, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  ldrValue = analogRead(ldrPin);
+  Serial.println(ldrValue);
+  
+  if (ldrValue <= 600) {
+    digitalWrite(ledPin1, HIGH);
+    digitalWrite(ledPin2, LOW);
+    digitalWrite(ledPin3, LOW);
+  } else if (ldrValue <= 900) {
+    digitalWrite(ledPin1, LOW);
+    digitalWrite(ledPin2, HIGH);
+    digitalWrite(ledPin3, LOW);
+  } else if (ldrValue > 900) {
+    digitalWrite(ledPin1, LOW);
+    digitalWrite(ledPin2, LOW);
+    digitalWrite(ledPin3, HIGH);
+  }
+  
+  int sensorValue = analogRead(ldrPin); // lê o valor do ldr
+  Serial.println(sensorValue); // imprime o valor lido na porta serial
+
+  if (ldrValue >= 600 && ldrValue <= 900) { // Checando se a luminosidade se encontra na faixa inadequada
+    tone(buzzerPin,600); // Toca a buzina com frequência de 600Hz
+    delay(3000); // Espera 3 segundos
+    noTone(buzzerPin); // Para de tocar a buzina
+    delay(1000); // Espera 1 segundo antes de repetir
+  }  else if (ldrValue > 900) {
+    tone(buzzerPin, 200); // Toca a buzina com frequência de 200Hz
+  } else { noTone(buzzerPin);
+  }
+  delay(100);
+}
+
