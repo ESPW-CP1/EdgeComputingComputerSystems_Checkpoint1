@@ -1,4 +1,4 @@
-## Desenvolvimento e Entrega do Checkpoint 1 - Edge Computing and Computer Systems
+## Desenvolvimento e Entrega do Checkpoint 1 - Edge Computing and Computer Systems :rooster:
 
 **Nomes + RM dos integrantes:**
 - Guilherme Akio - 98582
@@ -24,8 +24,8 @@ E elaboração do circuito final, juntamente com seu código de execução, foi 
 
 ### Como executar o projeto
   Para executar o projeto serão necessários os seguintes softwares:
-  - Autodesk Tinkercad (para reproduzir a simulação exibida em [Projeto no Tinkercad](Projeto no Tinkercad.jpg))
-  - Arduino (juntamente com o código presente em [neste arquivo](CodigoArduino.txt))
+  - Autodesk Tinkercad (para reproduzir a simulação exibida [nesta imagem](Projeto_Tinkercad.jpg))
+  - Arduino (juntamente com o código presente [neste arquivo](CodigoArduino.txt))
   
   E também será necessário um kit básico de componentes físicos do Arduino, dos quais serão utilizados:
   
@@ -39,7 +39,7 @@ E elaboração do circuito final, juntamente com seu código de execução, foi 
   - 3 Resistores 220 Ω 
   - 1 Resistor 10 kΩ 
   
-  Para a montagem do circuito, basta reproduzir o modelo exibio em Projeto no [Projeto no Tinkercad](Projeto no Tinkercad.jpg) utilizando os combonentes físicos listados. Para execução, é necessário conectar a placa Arduino Uno R3 a um computador via USB para inserir o código presente em CodigoArduino.txt no programa Arduino e fazer o upload.
+  Para a montagem do circuito, basta reproduzir o [modelo do Tinkercad](Projeto_Tinkercad.jpg) utilizando os combonentes físicos listados. Para execução, é necessário conectar a placa Arduino Uno R3 a um computador via USB, inserir o [código de execução](CodigoArduino.txt) no programa Arduino e fazer o upload.
    
 ### Pré-requisitos
   Para execução do projeto é necessário conhecimento sobre o uso da plataforma Autodesk Tinkercad, e experiência com o uso do programa Arduino e de seus componentes físicos. É necessário também saber usos básicos da linguagem C++ para entendimento do código e ajustes necesários (como no nível de luminosidade captada e frequência da buzina, por exemplo).
