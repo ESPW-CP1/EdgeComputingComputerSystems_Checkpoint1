@@ -4,8 +4,8 @@ int ledPin2 = 9;
 int ledPin3 = 8;
 const int buzzerPin = 11;
 int ldrValue;
-int buzzerDuration = 1000; // define a duração do som da buzina (em milissegundos)
-int buzzerPause = 1000; // define o intervalo de pausa da buzina (em milissegundos)
+int buzzerDuration = 1000;
+int buzzerPause = 1000;
 
 
 
@@ -50,4 +50,3 @@ void loop() {
   }
   delay(100);
 }
-

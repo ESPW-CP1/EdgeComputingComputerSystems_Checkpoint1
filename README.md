@@ -45,4 +45,4 @@ E elaboração do circuito final, juntamente com seu código de execução, foi 
   Para execução do projeto é necessário conhecimento sobre o uso da plataforma Autodesk Tinkercad, e experiência com o uso do programa Arduino e de seus componentes físicos. É necessário também saber usos básicos da linguagem C++ para entendimento do código e ajustes necesários (como no nível de luminosidade captada e frequência da buzina, por exemplo).
 
 ### Video Explicativo
-   "link do video"
+  [Link para o vídeo explicativo do projeto no Google Drive](https://drive.google.com/file/d/14JTUxA9DLmadRMGnECJU8MJLK81YmrGo/view?usp=sharing)
