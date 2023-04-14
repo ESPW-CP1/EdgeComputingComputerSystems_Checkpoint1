@@ -29,6 +29,6 @@ Em relação à parte de JavaScript do projeto,  criamos campos para inserção 
 
 Este teste é apenas um protótipo do calculo final que será realizado pelo software que estamos desenvolvendo, de modo a já conseguirmos ilustrar a funcionalidade do projeto em estágios finais.
 
-###Pré-requisitos para a execução do projeto
+### Pré-requisitos para a execução do projeto
 - Programa para leitura e execução de arquivos HTML e JavaScript
 - Informações para testagem dos campos no rodapé da página (Login: contatogalofiap@gmail.com / Senha: 12345)
